@@ -1,0 +1,13 @@
+generatorName: java
+inputSpec: openapi/openapi.json
+outputDir: generated/java
+groupId: com.kavenio
+artifactId: kavenio-java
+apiPackage: com.kavenio.sdk.api
+modelPackage: com.kavenio.sdk.model
+invokerPackage: com.kavenio.sdk
+additionalProperties:
+  library: okhttp-gson
+  hideGenerationTimestamp: true
+  useJakartaEe: true
+  disallowAdditionalPropertiesIfNotPresent: false
